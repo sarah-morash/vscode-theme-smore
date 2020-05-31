@@ -1,0 +1,21 @@
+{
+    "name": "smore",
+    "displayName": "smore",
+    "description": "Dark background, but bright, colourful text to keep you awake ;)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Smore",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Smore-color-theme.json"
+            }
+        ]
+    }
+}
